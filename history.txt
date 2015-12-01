@@ -1,0 +1,5 @@
+    1  git branch v3.0
+    2  git checkout v3.0
+    3  git merge master -m "merge with v3.0"
+    5  git checkout master
+    9  history|grep git > history.txt
