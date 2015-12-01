@@ -1,5 +1,17 @@
     1  git branch v3.0
     2  git checkout v3.0
-    3  git merge master -m "merge with v3.0"
-    5  git checkout master
-    9  history|grep git > history.txt
+    3  git push origin master
+    4  git merge master -m "merge 3.0"
+    5  git origin master
+    6  git push origin master
+   12  git branch v3.0
+   13  git checkout v3.0
+   14  git push origin v3.0
+   15  git checkout master
+   17  git add .
+   18  git commit -m "change2"
+   19  git push origin master
+   20  git checkout v3.0
+   21  git merge master
+   23  git checkout master
+   27  history|grep git > history.txt
